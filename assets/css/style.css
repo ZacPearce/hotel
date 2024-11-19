@@ -5,4 +5,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header{
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+body{
+    background-color: beige;
+}
+
 /*classes*/
+
+.slogan{
+    background-color: aqua;
+}
+
+.navi{
+    background-color: gray;
+}
+
+.welcome{
+    color: beige;
+    background-color: black;
+}
