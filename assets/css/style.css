@@ -1,31 +1,45 @@
+/*google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poiret+One&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 header{
     font-size: 3rem;
-    font-weight: 300;
+    font-family: "Poiret One", sans-serif;
     text-align: center;
 }
 
 body{
     background-color: beige;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+    font-family: "Poiret One", sans-serif;
 }
 
 /*classes*/
 
 .slogan{
-    background-color: aqua;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
 }
 
 .navi{
     background-color: gray;
+    font-family: "Poiret One", sans-serif;
 }
 
 .welcome{
     color: beige;
-    background-color: black;
+    background-color: red;
 }
+  
