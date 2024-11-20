@@ -5,13 +5,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poiret One", sans-serif;
 }
 
 
 header{
     font-size: 3rem;
-    font-family: "Poiret One", sans-serif;
     text-align: center;
+    padding: 0 1rem;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 body{
@@ -23,23 +29,39 @@ body{
 
 main{
     flex: 1 0 auto;
-    font-family: "Poiret One", sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: beige;
 }
 
 /*classes*/
 
 .slogan{
     text-align: center;
-    font-family: "Poiret One", sans-serif;
+    background-color: black;
+    color: beige;
+    
 }
 
 .navi{
     background-color: gray;
-    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.navi a {
+    /*check affter css updates*/
+    text-decoration: none;
+    color: beige;
 }
 
 .welcome{
     color: beige;
-    background-color: red;
+    background-color: purple;
 }
-  
+
+.active{
+    border-bottom: 1px solid beige;
+}
