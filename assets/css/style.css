@@ -13,11 +13,24 @@ header{
     font-size: 3rem;
     text-align: center;
     padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+/*working on nav bar*/
+nav{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+/*this aint right?*/
+    top: 100%;
 }
 
 body{
@@ -29,6 +42,8 @@ body{
 
 main{
     flex: 1 0 auto;
+    /*space between content and header*/
+    margin-top: 3rem;
 }
 
 footer{
@@ -39,29 +54,96 @@ footer{
 /*classes*/
 
 .slogan{
-    text-align: center;
+    text-align: left;
     background-color: black;
     color: beige;
+    /**/
+    padding: 0 1.5rem;
     
 }
 
-.navi{
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
+.welcome{
+    color: beige;
+    background-color: gray;
+}
+
+.active{
+    border-bottom: 1px solid beige;
+}
+
+
+/*IDs*/
+#navi{
     background-color: gray;
     text-align: center;
     font-size: 2rem;
 }
 
-.navi a {
-    /*check affter css updates*/
+#navi a {
     text-decoration: none;
     color: beige;
 }
 
-.welcome{
-    color: beige;
-    background-color: purple;
+#nav-toggle:checked~nav{
+    display: block;
 }
 
-.active{
-    border-bottom: 1px solid beige;
+#nav-toggle{
+    display: none;
+}
+
+
+/*media queries
+
+@media screen and (min-width: 768px) {
+    nav{
+        width: fit-content;
+        position: relative;
+    }
+
+    #navi{
+        background-color: beige;
+        color: black;
+        display: flex;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+    
+    
+}
+    */
+
+
+    
+.socials{
+    text-align: center;
+    background-color: beige;
+    justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials li{
+    display: inline;
+}
+
+.socials i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 16px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
 }
