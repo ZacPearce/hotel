@@ -35,7 +35,70 @@
     <main>
         form with name, date, room type, special requests, how many guests
 
+        <div>
+            <div class="signup">
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <table>
+                         <tr>
+                            <td>
+                                <label for="full_name">Full Name:</label>
+                                <input id="full_name" type="text" placeholder="Full Name" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="date_of_booking"> When would you like to stay?:</label>
+                                <input id="date_of_booked" type="date" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">E-mail Address</label>
+                                <input id="email" type="text" placeholder="E-mail Address" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="room">Which type of room would you like?</label>
+                                <select name="room" id="room" required>
+                                    <option value="" selected disabled>Please select room type...</option>
+                                    <option value="king_size">King Size</option>
+                                    <option value="queen_size">Queen Size</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="requests">Do you have any special requests</label>
+                                <hr>
+                                <textarea name="requests" id="requests" cols="30" rows="10" required></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="correct"></label>
+                                    Are you happy with your answers?
+                                <input type="checkbox" name="correct" id="correct" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="Submit" class="btn">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
         <p>list of amenities</p>
+        <p>how many guests</p>
+        <p>how many rooms</p>
+        <p>how long is your stay?</p>
+        <p>any queries feel free to *contact us* at anytime, we are happy to help 24/7</p>
     </main>
 
     <footer>
