@@ -22,61 +22,23 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+
 /*working on nav bar*/
 nav{
     position: absolute;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     display: none;
 /*this aint right?*/
     top: 100%;
-}
-
-body{
-    background-color: beige;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main{
-    flex: 1 0 auto;
-    /*space between content and header*/
-    margin-top: 3rem;
-}
-
-footer{
-    background-color: black;
-    color: beige;
-}
-
-/*classes*/
-
-.slogan{
-    text-align: left;
-    background-color: black;
-    color: beige;
-    /**/
-    padding: 0 1.5rem;
-    
 }
 
 .nav-toggle-label{
     font-size: 2rem;
 }
 
-.welcome{
-    color: beige;
-    background-color: gray;
-}
-
-.active{
-    border-bottom: 1px solid beige;
-}
-
-
-/*IDs*/
 #navi{
     background-color: gray;
     text-align: center;
@@ -95,6 +57,99 @@ footer{
 #nav-toggle{
     display: none;
 }
+
+
+
+
+body{
+    background-color: beige;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+    /*space between content and header*/
+    margin-top: 1rem;
+}
+
+footer{
+    background-color: black;
+    color: beige;
+}
+
+img{
+    flex: 1;
+    margin: 20px;
+    box-sizing: border-box; 
+    max-width: 25em;
+    min-width: 15em; 
+    text-align: center; 
+    height: 25rem;
+}
+
+figcaption{
+    font-size: 4rem;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+    
+
+
+
+
+/*classes*/
+
+.slogan{
+    text-align: left;
+    background-color: black;
+    color: beige;
+    /**/
+    padding: 0 1.5rem;
+    
+}
+
+
+.welcome{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.active{
+    border-bottom: 1px solid beige;
+}
+    
+.socials{
+    text-align: center;
+    background-color: black;
+    justify-content: space-between;
+    text-decoration: none;
+    color: beige
+}
+
+.socials li{
+    display: inline;
+}
+
+.socials i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 16px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+}
+
+/*IDs*/
 
 
 /*media queries
@@ -119,31 +174,3 @@ footer{
     
 }
     */
-
-
-    
-.socials{
-    text-align: center;
-    background-color: beige;
-    justify-content: space-between;
-    text-decoration: none;
-    color: inherit;
-}
-
-.socials li{
-    display: inline;
-}
-
-.socials i{
-    font-size: 200%;
-    margin: 1%;
-    padding: 16px;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-    padding: 10px;
-}
