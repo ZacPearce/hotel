@@ -11,7 +11,6 @@
 
 header{
     font-size: 3rem;
-    text-align: center;
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
@@ -23,15 +22,18 @@ header a {
     color: inherit;
 }
 
+h1{
+    text-align: center;
+}
 
-/*working on nav bar*/
+
+/*nav bar*/
 nav{
     position: absolute;
     width: 100%;
     left: 0;
     padding: 0 0.5rem;
     display: none;
-/*this aint right?*/
     top: 100%;
 }
 
@@ -74,7 +76,7 @@ main{
     margin-top: 1rem;
 }
 
-footer{
+footer a{
     background-color: black;
     color: beige;
 }
@@ -103,15 +105,26 @@ figcaption{
 
 /*classes*/
 
+.booking{
+    margin: 5px;
+    border: 1px solid black;
+    background-color: beige;
+    font-size: 1.2em;
+    font-weight: 400;
+    max-width: 20em;
+    color: gray;
+    padding: 10px;
+    max-height: fit-content;
+}
+
 .slogan{
-    text-align: left;
+    text-align: center;
     background-color: black;
     color: beige;
     /**/
     padding: 0 1.5rem;
     
 }
-
 
 .welcome{
     color: black;
@@ -149,6 +162,14 @@ figcaption{
     padding: 10px;
 }
 
+
+
+
+#map {
+    height: 150%;
+    width: 50%;
+    border: none;
+}
 /*IDs*/
 
 
