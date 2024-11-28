@@ -120,6 +120,7 @@ figcaption{
     color: gray;
     padding: 10px;
     max-height: fit-content;
+    align-items: center;
 }
 
 .slogan{
