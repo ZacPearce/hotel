@@ -33,7 +33,6 @@
     </header>
 
     <main>
-        form with name, date, room type, special requests, how many guests
 
         <div>
             <div class="booking">
@@ -47,8 +46,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <label for="date_of_booking"> When would you like to stay?:</label>
-                                <input id="date_of_booked" type="date" required>
+                                <label for="date_of_booking"> When would you like to start your stay?:</label>
+                                <input id="date_of_booking" type="date" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="end_of_booking"> When would you like to end your stay?:</label>
+                                <input id="end_of_booking" type="date" required>
                             </td>
                         </tr>
                         <tr>
@@ -64,6 +69,18 @@
                                     <option value="" selected disabled>Please select room type...</option>
                                     <option value="king_size">King Size</option>
                                     <option value="queen_size">Queen Size</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="guests">How many guests?</label>
+                                <select name="guests" id="guests" required>
+                                    <option value="" selected disabled>Maximum of 4 guests...</option>
+                                    <option value="guest1">1</option>
+                                    <option value="guest2">2</option>
+                                    <option value="guest3">3</option>
+                                    <option value="guest4">4</option>
                                 </select>
                             </td>
                         </tr>
@@ -92,13 +109,7 @@
         </div>
 
     </div>
-
-
-        <p>list of amenities</p>
-        <p>how many guests</p>
-        <p>how many rooms</p>
-        <p>how long is your stay?</p>
-        <p>any queries feel free to *contact us* at anytime, we are happy to help 24/7</p>
+    
     </main>
 
     <footer>
