@@ -100,28 +100,10 @@ figcaption{
 }
     
 
-/*Contact Us page*/
-
-.info{
-    font-size: 4rem;
-    text-align: center;
-}
-
 
 /*classes*/
 
-.booking{
-    margin: 5px;
-    border: 1px solid black;
-    background-color: beige;
-    font-size: 1.2em;
-    font-weight: 400;
-    max-width: 20em;
-    color: gray;
-    padding: 10px;
-    max-height: fit-content;
-    align-items: center;
-}
+
 
 .slogan{
     text-align: center;
@@ -203,16 +185,42 @@ figcaption{
     font-size: 2rem;
 }
 
+/*Bookings Page*/
 
+.booking{
+    margin: 5px;
+    border: 1px solid black;
+    background-color: beige;
+    font-size: 1.2em;
+    font-weight: 400;
+    max-width: 20em;
+    color: gray;
+    padding: 10px;
+    max-height: fit-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/*Contact Us page*/
 
-
+.info{
+    font-size: 2rem;
+    text-align: center;
+}
 
 #map {
-    height: 150%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     border: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column; 
+    }
+}
+
 /*IDs*/
 
 
