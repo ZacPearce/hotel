@@ -179,10 +179,19 @@ figcaption{
     padding: 10px;
 }
 
+.room-type img{
+    height: fit-content;
+}
+
+.room-type a{
+    text-decoration: underline;
+    color: black;
+}
+
 .amenities{
     margin: 5px;
     border: 0.1em solid black;
-    font-size: 1.1em;
+    font-size: 3rem;
     text-align: center;
     max-width: 20em;
     float: left;
@@ -191,6 +200,7 @@ figcaption{
 
 .amenities-list{
     list-style: none;
+    font-size: 2rem;
 }
 
 
