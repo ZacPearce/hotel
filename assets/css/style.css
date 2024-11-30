@@ -140,6 +140,8 @@ figcaption{
     color: black;
     font-size: 2rem;
     text-align: center;
+    margin: auto;
+    padding: 0 2rem;
 }
 
 .active{
@@ -164,6 +166,7 @@ figcaption{
     justify-content: center;
     align-items: center; 
     padding: 10px;
+    margin: 1rem;
 }
 
 .room-type img{
@@ -189,6 +192,8 @@ figcaption{
     list-style: none;
     font-size: 2rem;
 }
+
+/*queen & king*/
 
 /*Bookings Page*/
 
