@@ -22,8 +22,33 @@ header a {
     color: inherit;
 }
 
-h1{
+header h1{
     text-align: center;
+}
+
+/*footer*/
+
+footer a{
+    background-color: black;
+    color: beige;
+}
+.socials{
+    text-align: center;
+    background-color: black;
+    justify-content: space-between;
+    text-decoration: none;
+    color: beige;
+    list-style: none;
+}
+
+.socials li{
+    display: inline;
+}
+
+.socials i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 16px;
 }
 
 
@@ -76,10 +101,7 @@ main{
     margin-top: 1rem;
 }
 
-footer a{
-    background-color: black;
-    color: beige;
-}
+
 
 img{
     flex: 1;
@@ -124,24 +146,7 @@ figcaption{
     border-bottom: 1px solid beige;
 }
     
-.socials{
-    text-align: center;
-    background-color: black;
-    justify-content: space-between;
-    text-decoration: none;
-    color: beige;
-    list-style: none;
-}
 
-.socials li{
-    display: inline;
-}
-
-.socials i{
-    font-size: 200%;
-    margin: 1%;
-    padding: 16px;
-}
 
 .flex-container {
     display: flex;
@@ -207,6 +212,13 @@ figcaption{
 .info{
     font-size: 2rem;
     text-align: center;
+}
+
+.transport{
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
 }
 
 #map {
