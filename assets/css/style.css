@@ -195,6 +195,13 @@ figcaption{
 
 /*queen & king*/
 
+.queen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /*Bookings Page*/
 
 .booking{
