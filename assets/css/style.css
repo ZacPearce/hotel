@@ -100,26 +100,18 @@ main{
 img{
     flex: 1;
     margin: 20px;
-    box-sizing: border-box; 
-    max-width: 25em;
-    min-width: 15em; 
+    box-sizing: border-box;
     text-align: center; 
-    height: 25rem;
-}
-
-figcaption{
-    font-size: 4rem;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
 }
     
 
 
 /*classes*/
 
-
+.hero{
+    max-width: 100%;
+    height: auto;
+}
 
 .slogan{
     text-align: center;
@@ -127,7 +119,6 @@ figcaption{
     color: beige;
     font-size: 2rem;
     padding: 0 1.5rem;
-    
 }
 
 .welcome{
