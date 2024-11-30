@@ -142,7 +142,7 @@ main{
     align-items: center;
     margin: 20px;
     padding: 10px 0 0 10px;
-    display: inline-block;
+    display: flex;
 }
 
 .home-image{
@@ -299,6 +299,27 @@ main{
 
 @media only screen and (max-width: 600px) {
     .flex-container {
-        flex-direction: column; 
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:934px) {
+    #photo {column-count: 2;}
+}
+
+@media screen and (max-width:800px){
+    #photo{
+        column-count: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .homepage {
+        flex-direction: column;
+    }
+    
+    .home-text,
+    .home-image {
+        width: 100%;
     }
 }
