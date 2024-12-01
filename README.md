@@ -1,6 +1,6 @@
 # Hotel JEM
 
-## A responsive website for a luxury apartment chain to show the user the history of the club, why it's important to the local community, to build a bigger fanbase and recruit new players for the team.
+## A responsive website for a new and expanding luxury apartment chain to allow potential customers to see the hotel, make bookings and help the business grow
 
 [View Website Link](https://zacpearce.github.io/hotel/)
 
@@ -92,64 +92,87 @@ I used sans-serif for the articles as it is neutral and easy to read and differe
 
 # Wireframes
 
-### Homepage  
-![Wireframe](<assets/images/readme-img/wireframe-desk-index.png>)
-![Wireframe](<assets/images/readme-img/wireframe-tablet-index.png>)
+### Index
+![Wireframe]
+![Wireframe]
 
-### History  
-![Wireframe](<assets/images/readme-img/history-desktop-wireframe.png>)
-![Wireframe](<assets/images/readme-img/history-tablet-mobile-wireframe.png>)
+### Rooms
+![Wireframe]
+![Wireframe]
 
-### Gallery  
-![Wireframe](<assets/images/readme-img/gallery-desktop-wireframe.png>)
-![Wireframe](<assets/images/readme-img/gallery-mobile-tablet-wireframe.png>)
+### King Size  
+![Wireframe]
+![Wireframe]
 
-### Join
-![Wireframe](<assets/images/readme-img/join-desktop-wireframe.png>)
-![Wireframe](<assets/images/readme-img/join-tablet-mobile-wireframe.png>)
+### Queen Size 
+![Wireframe]
+![Wireframe]
+
+### Bookings  
+![Wireframe]
+![Wireframe]
+
+### Contact Us
+![Wireframe]
+![Wireframe]
 
 # Testing
 
 To validate my HTML and CSS code I tested it via [W3C Markup Validation Service](https://validator.w3.org/)  and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  
 See my results below
 
-CSS Results
-![Validator](<assets/images/readme-img/css-validator.png>)
+### CSS Results
 
-index.html Results
-![Validator](<assets/images/readme-img/index-validator.png>)
+Index Results
+![Validator](<assets/readme-img/css-validator-home.png>)
 
-History.html Results
-![Validator](<assets/images/readme-img/history-validator.png>)
+Rooms Results
+![Validator](<assets/readme-img/css-validator-rooms.png>)
 
-Join.html Results
-![Validator](<assets/images/readme-img/join-validator.png>)
+King-Size Results
+![Validator](assets/readme-img/css-validator-king.png)
 
-Gallery.html Results
-![Validator](<assets/images/readme-img/galley-validator.png>)  
+Queen-Size Results
+![Validator](assets/readme-img/css-validator-queen.png)
+
+Contact Us Results
+![Validator](assets/readme-img/css-validator-contact.png)
+
+Bookings Results
+![Validator](assets/readme-img/css-validator-booking.png)
 
 I also used [Page Speed Insights](https://pagespeed.web.dev/)   
 
 See my results below  
 
-Index.html
+Index
 ![Validator](<assets/images/readme-img/index-desktop.png>)
 ![Validator](<assets/images/readme-img/index-mobile.png>)
 
-Gallery.html  
+Rooms  
 
-![Validator](<assets/images/readme-img/gallery-desktop.png>)
-![Validator](<assets/images/readme-img/gallery-mobile.png>)
+![Validator]
+![Validator]
 
-History.html  
+King Size 
 
-![Validator](<assets/images/readme-img/history-desktop.png>)
-![Validator](<assets/images/readme-img/history-mobile.png>)
+![Validator]
+![Validator]
 
-Join.html  
+Queen Size 
 
-![Validator](<assets/images/readme-img/join-mobile.png>)
-![Validator](<assets/images/readme-img/join-desktop.png>) 
+![Validator]
+![Validator]
+
+Bookings
+
+![Validator]
+![Validator]
+
+Contact Us
+
+![Validator]
+![Validator]
 
 # Technologies
 
