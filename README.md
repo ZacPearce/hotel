@@ -165,33 +165,33 @@ Bookings Results
 ### Page Speed Results
 
 Index
-![Validator]
-![Validator]
+![Validator](assets/readme-img/page-speed-index-mob.png)
+![Validator](assets/readme-img/page-speed-index-desk.png)
 
 Rooms  
 
-![Validator]
-![Validator]
+![Validator](assets/readme-img/page-speed-rooms-mob.png)
+![Validator](assets/readme-img/page-speed-rooms-desk.png)
 
 King Size 
 
-![Validator]
-![Validator]
+![Validator](assets/readme-img/page-speed-king-mob.png)
+![Validator](assets/readme-img/page-speed-king-desk.png)
 
 Queen Size 
 
-![Validator]
-![Validator]
+![Validator](assets/readme-img/page-speed-queen-mob.png)
+![Validator](assets/readme-img/page-speed-queen-desk.png)
 
 Bookings
 
-![Validator]
-![Validator]
+![Validator](assets/readme-img/page-speed-booking-mob.png)
+![Validator](assets/readme-img/page-speed-booking-desk.png)
 
 Contact Us
 
-![Validator]
-![Validator]
+![Validator](assets/readme-img/page-speed-contact-mob.png)
+![Validator](assets/readme-img/page-speed-contact-desk.png)
 
 # Technologies
 
