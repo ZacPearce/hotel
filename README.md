@@ -66,7 +66,8 @@ I used sans-serif for the articles as it is neutral and easy to read and differe
 
 - I've made a list of amenities to show everything we have to offer and what comes with the room when you book with us 
 
-- I've made two seperate pages showing our King room and our Queen room, so you can see what each of our room types look like and you can pick your prefences, I've also added a link to the bookings page if they like what they see they can quickly find a way to book.
+### King Room & Queen Room
+- I've made two additional pages within the Rooms page showing our King room and our Queen room, so you can see what each of our room types look like and you can pick your prefences, I've also added a link to the bookings page if they like what they see they can quickly find a way to book.
 
 ## Bookings
 
@@ -118,10 +119,29 @@ I used sans-serif for the articles as it is neutral and easy to read and differe
 
 # Testing
 
-To validate my HTML and CSS code I tested it via [W3C Markup Validation Service](https://validator.w3.org/)  and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  
-See my results below
+To validate my HTML and CSS code I tested it via [W3C Markup Validation Service](https://validator.w3.org/)  and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  I also used [Page Speed Insights](https://pagespeed.web.dev/) for further testing.
 
-### CSS Results
+### W3C Markup Validation Results
+
+Index Results
+![Validator](<assets/readme-img/Validator-index.png)
+
+Rooms Results
+![Validator](<assets/readme-img/validator-room.png)
+
+King-Size Results
+![Validator](assets/readme-img/validator-king.png)
+
+Queen-Size Results
+![Validator](assets/readme-img/validator-queen.png)
+
+Contact Us Results
+![Validator](assets/readme-img/validator-contact.png)
+
+Bookings Results
+![Validator](assets/readme-img/validator-booking.png)
+
+### W3C CSS Validation Results
 
 Index Results
 ![Validator](<assets/readme-img/css-validator-home.png>)
@@ -140,14 +160,13 @@ Contact Us Results
 
 Bookings Results
 ![Validator](assets/readme-img/css-validator-booking.png)
+  
 
-I also used [Page Speed Insights](https://pagespeed.web.dev/)   
-
-See my results below  
+### Page Speed Results
 
 Index
-![Validator](<assets/images/readme-img/index-desktop.png>)
-![Validator](<assets/images/readme-img/index-mobile.png>)
+![Validator]
+![Validator]
 
 Rooms  
 
