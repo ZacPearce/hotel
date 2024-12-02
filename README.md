@@ -94,28 +94,19 @@ I used sans-serif for the articles as it is neutral and easy to read and differe
 # Wireframes
 
 ### Index
-![Wireframe]
-![Wireframe]
+![Wireframe](assets/readme-img/wireframe-homepage.png)
 
 ### Rooms
-![Wireframe]
-![Wireframe]
+![Wireframe](assets/readme-img/wireframe-rooms.png)
 
-### King Size  
-![Wireframe]
-![Wireframe]
-
-### Queen Size 
-![Wireframe]
-![Wireframe]
+### King Size & Queen Size Gallery 
+![Wireframe](assets/readme-img/wireframe-galleries.png)
 
 ### Bookings  
-![Wireframe]
-![Wireframe]
+![Wireframe](assets/readme-img/wireframe-bookings.png)
 
 ### Contact Us
-![Wireframe]
-![Wireframe]
+![Wireframe](assets/readme-img/wireframe-contact-us.png)
 
 # Testing
 
@@ -124,10 +115,10 @@ To validate my HTML and CSS code I tested it via [W3C Markup Validation Service]
 ### W3C Markup Validation Results
 
 Index Results
-![Validator](<assets/readme-img/Validator-index.png)
+![Validator](assets/readme-img/Validator-index.png)
 
 Rooms Results
-![Validator](<assets/readme-img/validator-room.png)
+![Validator](assets/readme-img/validator-room.png)
 
 King-Size Results
 ![Validator](assets/readme-img/validator-king.png)
