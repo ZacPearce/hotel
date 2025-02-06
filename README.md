@@ -50,11 +50,11 @@ I used sans-serif for the articles as it is neutral and easy to read and differe
 
 ## Header
 
-- In the header of each page I have gave the page a unique title and I've hyperlinked our club mascot 'the warthog' next to the title as a return to home button.
+- In the header of each page I have gave the page a unique title thats relevant to the page youre on and I've hyperlinked 'HOTEL JEM' as a return to home button.
 
 ## Home Page
 
-- You're welcomed to the page with a smile, the hero image is our home pitch but styled into a smiley face to make it more welcoming.
+- You're welcomed to the page with a our hotel name and slogan of "HOTEL JEM, where comfortability meets affordability"
 
 - Under the header and slogan, there's a navigation bar.
 
